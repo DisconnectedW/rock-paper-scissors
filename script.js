@@ -46,8 +46,14 @@ rockBtn.addEventListener("click", () => {
 
     if (computerScore === 5) {
         roundResultsMsg.textContent = "The computer has won the game";
+        rockBtn.disabled = true;
+        paperBtn.disabled = true;
+        scissorsBtn.disabled = true;
     } else if (humanScore === 5) {
         roundResultsMsg.textContent = "You won the game!";
+        rockBtn.disabled = true;
+        paperBtn.disabled = true;
+        scissorsBtn.disabled = true;
     }
 });
 
@@ -58,8 +64,14 @@ paperBtn.addEventListener("click", () => {
 
     if (computerScore === 5) {
         roundResultsMsg.textContent = "The computer has won the game";
+        rockBtn.disabled = true;
+        paperBtn.disabled = true;
+        scissorsBtn.disabled = true;
     } else if (humanScore === 5) {
         roundResultsMsg.textContent = "You won the game!";
+        rockBtn.disabled = true;
+        paperBtn.disabled = true;
+        scissorsBtn.disabled = true;
     }
 });
 
@@ -70,8 +82,14 @@ scissorsBtn.addEventListener("click", () => {
 
     if (computerScore === 5) {
         roundResultsMsg.textContent = "The computer has won the game";
+        rockBtn.disabled = true;
+        paperBtn.disabled = true;
+        scissorsBtn.disabled = true;
     } else if (humanScore === 5) {
         roundResultsMsg.textContent = "You won the game!";
+        rockBtn.disabled = true;
+        paperBtn.disabled = true;
+        scissorsBtn.disabled = true;
     }
 });
 
