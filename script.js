@@ -42,16 +42,10 @@ function playGame() {
     let computerScore = 0;
     let round = 0;
 
-    while (round < 6) {
+    while (round < 5) {
         const humanChoice = getHumanChoice();
         playRound(humanChoice, getComputerChoice());
         
         round++;
-    }
-
-    if (humanScore === 3) {
-        return "You won the game!";
-    } else {
-        return "You lost the game!";
     }
 }
