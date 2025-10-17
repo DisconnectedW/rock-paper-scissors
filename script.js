@@ -37,17 +37,4 @@ function playRound(humanChoice,computerChoice) {
     }
 }
 
-function playGame() {
-    let humanScore = 0;
-    let computerScore = 0;
-    let round = 0;
 
-    while (round < 5) {
-        const humanChoice = getHumanChoice();
-        playRound(humanChoice, getComputerChoice());
-        
-        round++;
-    }
-}
-
-playGame();
