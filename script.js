@@ -36,3 +36,22 @@ function playRound(humanChoice,computerChoice) {
         computerScore++;
     }
 }
+
+function playGame() {
+    let humanScore = 0;
+    let computerScore = 0;
+    let round = 0;
+
+    while (round < 6) {
+        const humanChoice = getHumanChoice();
+        playRound(humanChoice, getComputerChoice());
+        
+        round++;
+    }
+
+    if (humanScore === 3) {
+        return "You won the game!";
+    } else {
+        return "You lost the game!";
+    }
+}
