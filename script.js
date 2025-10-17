@@ -49,3 +49,5 @@ function playGame() {
         round++;
     }
 }
+
+playGame();
